@@ -11,3 +11,8 @@ struct Lego {
     let icon: String
     let intro: String
 }
+
+struct Pic {
+    let icon: String
+    let intro: String
+}

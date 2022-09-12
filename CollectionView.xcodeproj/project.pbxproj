@@ -16,6 +16,7 @@
 		5DB8A42328C86AFD00AF5039 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8A42228C86AFD00AF5039 /* CollectionViewController.swift */; };
 		5DB8A42528C86E0F00AF5039 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8A42428C86E0F00AF5039 /* CollectionViewCell.swift */; };
 		5DB8A42728C86ED500AF5039 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB8A42628C86ED500AF5039 /* data.swift */; };
+		5DD9CE8E28CEEECF005A713A /* MultiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD9CE8D28CEEECF005A713A /* MultiCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5DB8A42228C86AFD00AF5039 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		5DB8A42428C86E0F00AF5039 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		5DB8A42628C86ED500AF5039 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		5DD9CE8D28CEEECF005A713A /* MultiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +68,9 @@
 				5DB8A41028C86A7A00AF5039 /* SceneDelegate.swift */,
 				5DB8A41228C86A7A00AF5039 /* DemoViewController.swift */,
 				5DB8A41428C86A7A00AF5039 /* Main.storyboard */,
-				5DB8A42228C86AFD00AF5039 /* CollectionViewController.swift */,
+				5DD9CE8D28CEEECF005A713A /* MultiCollectionViewCell.swift */,
 				5DB8A42628C86ED500AF5039 /* data.swift */,
+				5DB8A42228C86AFD00AF5039 /* CollectionViewController.swift */,
 				5DB8A42428C86E0F00AF5039 /* CollectionViewCell.swift */,
 				5DB8A41728C86A7B00AF5039 /* Assets.xcassets */,
 				5DB8A41928C86A7B00AF5039 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 				5DB8A42528C86E0F00AF5039 /* CollectionViewCell.swift in Sources */,
 				5DB8A42728C86ED500AF5039 /* data.swift in Sources */,
 				5DB8A42328C86AFD00AF5039 /* CollectionViewController.swift in Sources */,
+				5DD9CE8E28CEEECF005A713A /* MultiCollectionViewCell.swift in Sources */,
 				5DB8A41328C86A7A00AF5039 /* DemoViewController.swift in Sources */,
 				5DB8A40F28C86A7A00AF5039 /* AppDelegate.swift in Sources */,
 				5DB8A41128C86A7A00AF5039 /* SceneDelegate.swift in Sources */,

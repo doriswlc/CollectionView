@@ -7,10 +7,10 @@
 
 import UIKit
 
-//private let reuseIdentifier = "Cell"
+private let reuseIdentifier = "Cell"
 
 class CollectionViewController: UICollectionViewController {
-    let legos = [Lego(icon: "marvell01", intro: "01"), Lego(icon: "marvell02", intro: "02"), Lego(icon: "marvell03", intro: "03"), Lego(icon: "marvell04", intro: "04")]
+    let pics = [Pic(icon: "duck01", intro: "duck"), Pic(icon: "duck02", intro: "duck"), Pic(icon: "duck03", intro: "duck"), Pic(icon: "duck04", intro: "duck"), Pic(icon: "duck05", intro: "duck"), Pic(icon: "duck06", intro: "duck"), Pic(icon: "duck07", intro: "duck"), Pic(icon: "duck08", intro: "duck"), Pic(icon: "duck09", intro: "duck"), Pic(icon: "duck10", intro: "duck"), Pic(icon: "duck11", intro: "duck"), Pic(icon: "duck12", intro: "duck"), Pic(icon: "duck13", intro: "duck"), Pic(icon: "duck14", intro: "duck"), Pic(icon: "duck15", intro: "duck"), Pic(icon: "duck16", intro: "duck"), Pic(icon: "duck17", intro: "duck"), Pic(icon: "duck18", intro: "duck"), Pic(icon: "duck19", intro: "duck"), Pic(icon: "duck20", intro: "duck"), Pic(icon: "duck21", intro: "duck"), Pic(icon: "duck22", intro: "duck"), Pic(icon: "duck23", intro: "duck"), Pic(icon: "duck24", intro: "duck"), Pic(icon: "duck25", intro: "duck"), Pic(icon: "duck26", intro: "duck"), Pic(icon: "duck27", intro: "duck"), Pic(icon: "duck28", intro: "duck"), Pic(icon: "duck29", intro: "duck"), Pic(icon: "duck30", intro: "duck"), Pic(icon: "duck31", intro: "duck"), Pic(icon: "duck32", intro: "duck")]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -43,13 +43,13 @@ class CollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return legos.count
+        return pics.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(CollectionViewCell.self)", for: indexPath) as! CollectionViewCell
-        let lego = legos[indexPath.item]
-        cell.imageView.image = UIImage(named: lego.icon)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(MultiCollectionViewCell.self)", for: indexPath) as! MultiCollectionViewCell
+        let pic = pics[indexPath.item]
+        cell.picImageView.image = UIImage(named: pic.icon)
 
         return cell
     }
